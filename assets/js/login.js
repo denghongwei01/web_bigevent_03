@@ -26,8 +26,8 @@ $(function () {
             // 然后进行一次等于的判断
             // 如果判断失败,则return一个提示消息即可
             var pwd = $('.zhu-box [name=password]').val()
-            alert(pwd)
-            alert(value)
+            // alert(pwd)
+            // alert(value)
             if (pwd !== value) {
                 return "两次密码不一致"
             }
